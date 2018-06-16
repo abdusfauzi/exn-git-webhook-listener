@@ -2,11 +2,11 @@
 /**
  * Plugin Name: EXN Git Webhook Listener
  * Description: Listens to a GitLab webhook and run shell script everytime called.
- * Version: 1.1.0
+ * Version: 1.1.1
  * Author: Abdus Fauzi
  * Author URI: https://exnano.io
  * License: GPLv2
- * Text Domain: gitlab-webhook-listener
+ * Text Domain: git-webhook-listener
  */
 
 defined('ABSPATH') or die('No!');
