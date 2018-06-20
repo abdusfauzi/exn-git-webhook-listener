@@ -2,7 +2,7 @@
 /**
  * Plugin Name: EXN Git Webhook Listener
  * Description: Listens to a Git webhook and run shell script everytime called.
- * Version: 1.2.1
+ * Version: 1.2.2
  * Author: Abdus Fauzi
  * Author URI: https://exnano.io
  * License: GPLv2
@@ -31,7 +31,7 @@ function egwl_new_release_handler() {
         $path = ABSPATH;
     }
 
-    if ( $_SERVER['HTTP_X_GITLAB_TOKEN'] != $token || $_SERVER['HTTP_X_HUB_SIGNATURE'] != $token ) {
+    if ( $_SERVER['HTTP_X_GITLAB_TOKEN'] != $token && $_SERVER['HTTP_X_HUB_SIGNATURE'] != $token ) {
         $status = json_encode( [ 'success' => false, 'error' => 'Failed to validate the secret token' ] );
 
         ob_start();
