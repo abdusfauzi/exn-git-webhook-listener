@@ -1,7 +1,7 @@
 {
 	"name": "abdusfauzi/exn-git-webhook-listener",
-	"version": "1.2.0",
-	"description": "Listens to a GitLab webhook and run shell script everytime called.",
+	"version": "1.2.1",
+	"description": "Listens to a GitLab/Github webhook and run shell script everytime called.",
 	"keywords": ["wordpress"],
 	"license": "GPL2",
 	"type": "wordpress-plugin"

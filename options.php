@@ -30,7 +30,7 @@
                     <?php
                     $path = get_option( 'egwl-absolute-path' );
                     if ( false === $path || empty( $path ) ) {
-                        echo '<input type="hidden" name="egwl-absolute-path" value="' . ABSPATH . '" class="widefat">';
+                        echo '<input type="text" name="egwl-absolute-path" value="' . ABSPATH . '" class="widefat">';
                     } else {
                         // echo $token;
                         echo '<input type="text" name="egwl-absolute-path" value="' . $path . '" class="widefat">';

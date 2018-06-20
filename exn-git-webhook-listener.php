@@ -2,7 +2,7 @@
 /**
  * Plugin Name: EXN Git Webhook Listener
  * Description: Listens to a Git webhook and run shell script everytime called.
- * Version: 1.2.0
+ * Version: 1.2.1
  * Author: Abdus Fauzi
  * Author URI: https://exnano.io
  * License: GPLv2
